@@ -1,5 +1,5 @@
 # docker-hashicorp-nomad
-A Debian latest based Docker container running nomad on CoreOS instances.
+A debian:latest based Docker container running nomad on CoreOS instances.
 
 ## From cloud-config
 ```
