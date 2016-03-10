@@ -1,3 +1,4 @@
+# Using debian because busybox:glibc does not include libpthread.so
 FROM debian:latest
 MAINTAINER it-operations@boerse-go.de
 ENV TOOL=nomad \
