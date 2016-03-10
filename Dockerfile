@@ -17,3 +17,4 @@ RUN echo "${SHA256}  ${TOOL}_${VERSION}_linux_amd64.zip" | sha256sum -cw &&\
 EXPOSE :4646 :4647 :4648
 
 ENTRYPOINT ["/nomad"]
+CMD ["--help"]
